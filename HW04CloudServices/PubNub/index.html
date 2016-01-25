@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PubNub Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Simple chat system</h1>
+        <div id="info">This is a simple chat system implemented with
+            <a href="https://www.pubnub.com/docs/web-javascript/pubnub-javascript-sdk">PubNub JavaScript SDK 3.7.15</a>
+            <div>Open this in another browser and chat with yourself.</div>
+            <div>Don't forget <i>bower install</i> ^^</div>
+        </div>
+
+        <textarea id="msg-container" readonly></textarea>
+
+
+        <input id="input" type="text" placeholder="Enter your message">
+
+        <button id="btn-send" type="submit">Send</button>
+    </div>
+    
+    <script src="http://cdn.pubnub.com/pubnub-3.7.15.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="http://l2.io/ip.js?var=myip"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

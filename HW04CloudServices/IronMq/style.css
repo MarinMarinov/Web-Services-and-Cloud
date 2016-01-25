@@ -1,0 +1,31 @@
+body {
+	background-color: rgba(0, 255, 231, 0.55);
+	margin: 0;
+	padding: 0;
+}
+
+#msg-container {
+			border: 1px solid black;
+			width: 44%;
+			height: 300px;
+			display: block;
+			background-color: transparent;
+}
+
+#input {
+	width: 40%;
+	height: 30px;
+	text-align: right;
+	background-color: transparent;
+}
+
+#btn-send {
+	height: 37px;
+	width: 4%;
+}
+
+#info {
+	float: right;
+	margin-right: 5%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

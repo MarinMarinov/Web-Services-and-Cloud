@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IronMq Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Simple chat system</h1>
+        <div id="info">This is a simple chat system implemented with
+            <a href="http://www.iron.io/mq/">iron.io/mq messages queue</a>
+            <div>Instead of using external library I'm making requests to IronMq REST Api manualy.</div>
+            <div>The system is a little bit clumsy somethimes, so be patient.</div>
+            <div>Open this page in another browser and chat with yourself.</div>
+            <div>Don't forget <i>bower install</i> ^^</div>
+        </div>
+
+        <textarea id="msg-container" readonly></textarea>
+
+
+        <input id="input" type="text" placeholder="Enter your message">
+
+        <button id="btn-send" type="submit">Send</button>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="http://l2.io/ip.js?var=myip"></script>
+    <script src="scripts/jsonRequester.js"></script>
+    <script src="scripts/messagesGetter.js"></script>
+    <script src="scripts/messageSender.js"></script>
+</body>
+
+</html>

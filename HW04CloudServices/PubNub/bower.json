@@ -1,0 +1,15 @@
+{
+  "name": "PubNub Chat",
+  "homepage": "https://github.com/ni4ka7a/TelerikAcademyHomeworks",
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
